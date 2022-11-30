@@ -1,0 +1,32 @@
+/* Variables */
+
+.bg-beige {
+    background-color: beige;
+}
+
+html,body {
+    height: 100%;
+    color: rgb(107, 107, 107) !important;
+}
+
+.transaction-history-container .minus::before {
+    content: "";
+    height: 80%;
+    width: 4px;
+    background-color: red;
+    position: absolute;
+    left: 0;
+    top: 5px;
+    border-radius: 5px;
+}
+.transaction-history-container .plus::before {
+    content: "";
+    height: 80%;
+    width: 4px;
+    background-color: green;
+    position: absolute;
+    left: 0;
+    top: 5px;
+    border-radius: 5px;
+}
+
